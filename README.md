@@ -8,21 +8,20 @@
 
 # Paulo Henrique Oliveira Leite
 
-### Python Developer • RPA Developer • Intelligent Automation
+### Python Automation Developer • RPA • Applied AI
 
-Desenvolvo automações, integrações e soluções orientadas a dados para reduzir atividades manuais, aumentar a rastreabilidade operacional e tornar processos mais confiáveis.
+Desenvolvo automações, integrações e soluções orientadas a dados para transformar processos manuais em fluxos rastreáveis, resilientes e reutilizáveis.
 
 <br>
 
 <img src="https://img.shields.io/badge/Python-Automation-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/RPA-Process%20Automation-6C63FF?style=for-the-badge" />
-<img src="https://img.shields.io/badge/APIs-Integrations-009688?style=for-the-badge" />
-<img src="https://img.shields.io/badge/AI-Whisper-412991?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Data-Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" />
+<img src="https://img.shields.io/badge/Applied_AI-LLMs%20%26%20Whisper-412991?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Data-Power%20BI%20%26%20ETL-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
 
 <br><br>
 
-**Automação Web • Integração de Sistemas • Processamento de Dados • RPA • IA Aplicada**
+**Automação Web • Inteligência Artificial Aplicada • Integração de Sistemas • Processamento de Dados**
 
 </div>
 
@@ -30,107 +29,114 @@ Desenvolvo automações, integrações e soluções orientadas a dados para redu
 
 ## Sobre mim
 
-Sou desenvolvedor com foco em **Python, RPA e automação de processos**, atuando na construção de soluções para navegação web, extração e transformação de dados, integração entre sistemas, processamento em lote e acompanhamento operacional.
+Sou desenvolvedor focado em **automação de processos com Python**, soluções RPA, integração entre sistemas e aplicação prática de inteligência artificial em fluxos operacionais.
 
-Minha experiência envolve automações que interagem com páginas web, arquivos, relatórios, e-mails, APIs e aplicações desktop, sempre com atenção a **logs, validações, tratamento de falhas, retentativas, evidências de execução e manutenção futura**.
+Minha experiência envolve automações web e desktop, interfaces para operação de robôs, processamento de dados, integração com APIs, uso de múltiplos modelos de linguagem, reconhecimento de áudio em componentes auxiliares, geração de evidências e diagnóstico de falhas.
 
-Busco desenvolver soluções que não apenas executem tarefas, mas que também sejam rastreáveis, diagnosticáveis e úteis para a operação.
+Busco desenvolver soluções que não apenas executem tarefas repetitivas, mas que também sejam **rastreáveis, reutilizáveis, diagnosticáveis e seguras para ambientes reais**.
+
+---
+
+## Projeto em destaque
+
+# PBI Automation Studio
+
+### Automação e diagnóstico de interações em relatórios Power BI com Python e Playwright
+
+Aplicação desktop desenvolvida para automatizar navegação em relatórios Power BI, gerenciar templates de filtros, identificar visuais potencialmente exportáveis e registrar evidências detalhadas da execução.
+
+O projeto combina automação assíncrona com Playwright, interface gráfica para gerenciamento operacional, navegação resiliente em dashboards dinâmicos, captura de screenshots, geração de PDF diagnóstico e medição de desempenho por etapa.
+
+`Python` `Playwright` `Power BI` `pywebview` `React` `JSON Templates` `ReportLab` `Profiler`
+
+### Diferenciais técnicos
+
+- Navegação em páginas e subpáginas de relatórios dinâmicos.
+- Identificação de filtros tradicionais e componentes personalizados.
+- Aplicação parametrizada de filtros por templates JSON.
+- Rotina implementada para identificação e exportação de visuais para Excel.
+- Interface desktop para execução, scan e gerenciamento de templates.
+- Evidências visuais e relatórios de desempenho para troubleshooting.
+
+> A rotina de exportação está implementada em código, mas os artefatos analisados ainda não comprovam um ciclo completo de exportação concluído com sucesso em ambiente real.
+
+<!--
+Quando publicar o repositório, substitua a linha abaixo por:
+[Ver case completo do PBI Automation Studio](https://github.com/Paulo972021/pbi-automation-studio)
+-->
+
+> Repositório público demonstrativo em preparação.
+
+---
+
+## Cases selecionados
+
+### LLM Infinity — Plataforma Multi-LLM Resiliente
+
+Plataforma desenvolvida para orquestrar múltiplos modelos de linguagem e providers em pipelines de IA, reduzindo dependência de uma única API e mantendo continuidade operacional diante de falhas, indisponibilidade ou limites de uso.
+
+A solução integra roteamento entre providers, fallback automático, desativação temporária de providers indisponíveis, classificação de intenção com revisão semântica e processamento analítico de conteúdos extraídos do Reddit.
+
+`Python` `LLMs` `APIs` `Prompt Engineering` `Fallback` `Reddit Extraction` `AI Pipelines`
+
+### Diferenciais técnicos
+
+- Roteamento entre Cerebras, Cloudflare e Mistral.
+- Estratégia de fallback automático entre modelos.
+- Classificação de intenção com revisão por QA semântico.
+- Pipeline para extração, tradução, filtro, resumo e geração de insights.
+- Agregação de características, prós e contras de produtos.
+
+> Case apresentado de forma anonimizada. Chaves de API, configurações sensíveis, integrações completas e dados originais não são publicados.
+
+<!--
+Quando publicar o repositório, substitua a linha abaixo por:
+[Ver case completo do LLM Infinity](https://github.com/Paulo972021/llm-infinity)
+-->
+
+> Repositório público demonstrativo em preparação.
+
+<br>
+
+### Judicial Movement Monitor — Automação de Triagem Processual
+
+Automação Python desenvolvida para consultar registros em interface web, coletar movimentações, padronizar textos, localizar termos configuráveis e gerar arquivos consolidados para análise posterior.
+
+A solução incorpora tratamento de falhas, retentativas, execução paralela controlada, logs, interrupção segura e coordenação com outras automações por arquivos de lock.
+
+`Python` `Selenium` `pandas` `Excel` `ThreadPoolExecutor` `Logging` `RPA`
+
+### Diferenciais técnicos
+
+- Processamento em lote a partir de entrada estruturada.
+- Retentativas e recuperação após falhas de navegação.
+- Triagem textual configurável de movimentações.
+- Exportação consolidada para Excel.
+- Preservação de dados já coletados após interrupção.
+- Coordenação operacional entre robôs por controle de lock.
+
+> O reconhecimento de áudio identificado na versão interna atua como componente auxiliar da interação web e não representa análise jurídica de áudio.
+
+> Case apresentado de forma anonimizada. URLs, seletores, processos, dados reais e detalhes de integração não são publicados.
+
+<!--
+Quando publicar o repositório, substitua a linha abaixo por:
+[Ver case completo do Judicial Movement Monitor](https://github.com/Paulo972021/judicial-movement-monitor)
+-->
+
+> Repositório público demonstrativo em preparação.
 
 ---
 
 ## O que eu desenvolvo
 
-- Automações web com Python, Selenium, Playwright, Pyppeteer e nodriver.
-- Robôs RPA para interação com sistemas, arquivos, e-mails e aplicações desktop.
-- Integrações com APIs, requisições HTTP e processamento estruturado de informações.
-- Scraping e captura de dados com validação, classificação e consolidação de resultados.
-- Processamentos em lote com concorrência, múltiplos workers, logs e controle de falhas.
-- Pipelines de dados integrando Excel, Power BI, SQL, MySQL e Databricks.
-- Soluções com transcrição automatizada de áudio utilizando Whisper.
-- Rotinas de apoio à execução e distribuição de automações com PowerShell e Docker.
-
----
-
-## Projetos em destaque
-
-### Central de Monitoramento de Automações
-
-Aplicação demonstrativa voltada ao acompanhamento de robôs e rotinas automatizadas, com indicadores operacionais, histórico de execuções, filtros, logs, status de processamento e exportação de relatórios.
-
-`Python` `Dashboards` `Logs` `Automação` `Dados`
-
-> Projeto visual em desenvolvimento para apresentação pública, utilizando apenas dados fictícios.
-
-<br>
-
-### Automação de extração em dashboards e relatórios
-
-Solução criada para automatizar a navegação em relatórios, identificar elementos exportáveis, lidar com carregamentos dinâmicos, controlar falhas de interface e registrar evidências detalhadas da execução.
-
-`Python` `Automação Web` `Power BI` `Excel` `Logs`
-
-**Competências demonstradas:**
-
-- interação com interfaces dinâmicas;
-- identificação de elementos em página;
-- controle de pop-ups e estados de carregamento;
-- exportação controlada de dados;
-- diagnóstico detalhado em caso de falha.
-
-> Case apresentado de forma anonimizada. Códigos, URLs, dados e integrações reais não são publicados.
-
-<br>
-
-### Consulta e processamento de dados web em lote
-
-Robô desenvolvido para consultar informações em portal web, classificar respostas, extrair dados relevantes, tratar exceções e consolidar os resultados em arquivos estruturados para análise posterior.
-
-`Python` `Requests` `BeautifulSoup` `urllib3` `Excel` `Concorrência`
-
-**Competências demonstradas:**
-
-- captura e interpretação de páginas web;
-- requisições com controle de sessão e retentativas;
-- classificação de respostas;
-- processamento de múltiplos registros;
-- geração de resultados auditáveis.
-
-> Case apresentado de forma anonimizada. Dados originais e regras específicas de negócio não são disponibilizados.
-
-<br>
-
-### Automação com autenticação e diagnóstico de falhas
-
-Fluxo automatizado para acesso a plataforma web com autenticação em duas etapas, leitura controlada de token recebido por e-mail, continuidade da execução e geração de evidências para diagnóstico.
-
-`Python` `Selenium` `Automação Web` `E-mail` `Regex` `Screenshots` `Logs`
-
-**Competências demonstradas:**
-
-- automação de login;
-- integração entre navegador e caixa de e-mail;
-- leitura e validação de token;
-- controle de timeout;
-- investigação de diferenças entre ambientes de execução.
-
-> Case apresentado de forma anonimizada para preservar integrações e informações sensíveis.
-
-<br>
-
-### Extração estruturada de informações a partir de áudio
-
-Pipeline desenvolvido para transformar transcrições de áudio em informações estruturadas, com identificação de entidades relevantes e organização dos resultados para análise e automação posterior.
-
-`Python` `Whisper` `Processamento de Texto` `Dados Estruturados` `Automação`
-
-**Competências demonstradas:**
-
-- transcrição automatizada;
-- organização de textos não estruturados;
-- preparação de dados para modelos e análises;
-- transformação de conteúdo em informação operacional.
-
-> Case apresentado com conteúdo demonstrativo e dados anonimizados.
+- Automações web para interfaces dinâmicas, dashboards, portais e aplicações corporativas.
+- Ferramentas desktop para execução, parametrização, acompanhamento e diagnóstico de robôs.
+- Soluções de IA aplicada com múltiplos LLMs, roteamento entre providers e engenharia de prompts.
+- Pipelines para extração, transformação, triagem e consolidação de dados.
+- Robôs com logs, screenshots, retentativas, tratamento de falhas e rastreabilidade.
+- Integrações com APIs, Excel, Power BI, bancos de dados e ferramentas de automação.
+- Rotinas com execução paralela, controle operacional e proteção de informações sensíveis.
 
 ---
 
@@ -141,8 +147,8 @@ Pipeline desenvolvido para transformar transcrições de áudio em informações
 <div>
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" />
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
+<img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" />
 <img src="https://img.shields.io/badge/Pyppeteer-Browser%20Automation-1F6FEB?style=flat-square" />
 <img src="https://img.shields.io/badge/nodriver-Browser%20Automation-30363D?style=flat-square" />
 <img src="https://img.shields.io/badge/UiPath-FA4616?style=flat-square&logo=uipath&logoColor=white" />
@@ -151,7 +157,22 @@ Pipeline desenvolvido para transformar transcrições de áudio em informações
 
 </div>
 
-Desenvolvimento de robôs para navegação web, captura de informações, automação desktop, interação com sistemas corporativos e execução controlada de rotinas operacionais.
+Automação de páginas, dashboards, portais, autenticações, interfaces desktop e rotinas operacionais.
+
+<br>
+
+### Inteligência artificial aplicada
+
+<div>
+
+<img src="https://img.shields.io/badge/LLMs-Multi--Provider%20Routing-412991?style=flat-square" />
+<img src="https://img.shields.io/badge/Prompt_Engineering-AI%20Pipelines-7B61FF?style=flat-square" />
+<img src="https://img.shields.io/badge/Whisper-Audio%20Recognition-1F6FEB?style=flat-square" />
+<img src="https://img.shields.io/badge/Semantic_QA-Intent%20Validation-009688?style=flat-square" />
+
+</div>
+
+Orquestração de modelos, fallback entre providers, classificação de intenção, reconhecimento de áudio auxiliar e pipelines analíticos baseados em IA.
 
 <br>
 
@@ -163,11 +184,11 @@ Desenvolvimento de robôs para navegação web, captura de informações, automa
 <img src="https://img.shields.io/badge/Requests-HTTP-222222?style=flat-square" />
 <img src="https://img.shields.io/badge/urllib%20%7C%20urllib3-HTTP-4051B5?style=flat-square" />
 <img src="https://img.shields.io/badge/BeautifulSoup-Web%20Scraping-59666C?style=flat-square" />
-<img src="https://img.shields.io/badge/Parallel%20Processing-Multiple%20Workers-7B61FF?style=flat-square" />
+<img src="https://img.shields.io/badge/Workers-Parallel%20Processing-6C63FF?style=flat-square" />
 
 </div>
 
-Integração entre sistemas, consumo de serviços, scraping estruturado, processamento em lote e otimização de rotinas por meio de execução concorrente e múltiplos workers.
+Consumo de serviços, scraping estruturado, integração entre sistemas e processamento em lote com execução concorrente.
 
 <br>
 
@@ -184,36 +205,22 @@ Integração entre sistemas, consumo de serviços, scraping estruturado, process
 
 </div>
 
-Tratamento, validação, consolidação e disponibilização de dados para análises, relatórios operacionais, dashboards e acompanhamento de resultados.
+Tratamento, consolidação, exportação e disponibilização de dados para fluxos operacionais, relatórios e análises.
 
 <br>
 
-### Inteligência artificial e áudio
+### Execução, infraestrutura e versionamento
 
 <div>
 
-<img src="https://img.shields.io/badge/Whisper-Transcription-412991?style=flat-square" />
-<img src="https://img.shields.io/badge/Audio%20Processing-AI-7B61FF?style=flat-square" />
-<img src="https://img.shields.io/badge/Text%20Extraction-Structured%20Data-1F6FEB?style=flat-square" />
-
-</div>
-
-Aplicação de modelos de transcrição para transformar conteúdos de áudio em dados estruturados e utilizáveis em processos automatizados.
-
-<br>
-
-### Infraestrutura, execução e versionamento
-
-<div>
-
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
 
 </div>
 
-Apoio à execução, organização, versionamento, empacotamento e distribuição de soluções automatizadas.
+Execução controlada, empacotamento, versionamento e preparação de soluções automatizadas.
 
 ---
 
@@ -222,75 +229,86 @@ Apoio à execução, organização, versionamento, empacotamento e distribuiçã
 <div align="center">
 
 <pre>
-Problema operacional
-        ↓
-Mapeamento do processo e dos riscos
-        ↓
-Automação, integração ou processamento de dados
-        ↓
-Validações, logs, retentativas e diagnóstico
-        ↓
-Resultado rastreável e redução de trabalho manual
+Problema operacional ou analítico
+              ↓
+Mapeamento de entradas, riscos e regras
+              ↓
+Automação, integração ou pipeline de IA
+              ↓
+Validações, fallback, logs e evidências
+              ↓
+Saída estruturada e processo rastreável
 </pre>
 
 </div>
 
-Minhas soluções são pensadas para funcionar em cenários reais, considerando não apenas o caminho ideal da execução, mas também instabilidades, falhas de interface, variações de dados, necessidade de auditoria e continuidade operacional.
-
----
-
-## Projeto público demonstrativo
-
-### Automation Execution Monitor
-
-Projeto demonstrativo planejado para apresentar, com dados fictícios, uma central de acompanhamento de automações contendo:
-
-- indicadores de execuções realizadas;
-- taxa de sucesso e falhas;
-- horas operacionais economizadas;
-- tabela de atividades recentes;
-- painel de logs;
-- filtros por status e período;
-- exportação de relatório;
-- interface visual voltada ao acompanhamento operacional.
-
-**Objetivo:** demonstrar de forma pública minha capacidade de estruturar soluções de automação, processamento de dados, monitoramento e apresentação de resultados sem expor projetos profissionais sensíveis.
-
-`Python` `Data Processing` `Monitoring` `Logs` `Dashboard` `Automation`
-
-> Repositório demonstrativo em construção.
+Minhas soluções são construídas considerando não apenas o caminho ideal da execução, mas também carregamentos instáveis, falhas de interface, indisponibilidade de APIs, interrupções, necessidade de diagnóstico e proteção das informações envolvidas.
 
 ---
 
 ## Princípios de desenvolvimento
 
-- Automação orientada à redução de trabalho manual.
-- Código estruturado para manutenção e evolução.
-- Logs e evidências para facilitar diagnóstico.
-- Tratamento de erros e retentativas para aumentar confiabilidade.
+- Automação orientada à redução de trabalho manual e à confiabilidade operacional.
+- Código estruturado para manutenção, evolução e reutilização.
+- Logs, screenshots e evidências para facilitar diagnóstico.
+- Tratamento de falhas, retentativas e fallback quando aplicável.
+- Separação entre configuração operacional e lógica de execução.
 - Proteção de dados, acessos e informações de negócio.
 - Uso de demonstrações fictícias quando projetos reais envolvem confidencialidade.
 
 ---
 
-## Confidencialidade
+## Segurança e confidencialidade
 
-Alguns projetos apresentados neste perfil são baseados em desafios operacionais reais. Por envolverem integrações, regras de negócio, ambientes corporativos e informações potencialmente sensíveis, os códigos completos, dados originais, URLs, credenciais e detalhes específicos de implementação não são publicados.
+Os projetos apresentados neste perfil foram documentados como cases técnicos anonimizados.
 
-As demonstrações públicas serão recriadas com dados fictícios e finalidade exclusivamente profissional.
+Por envolverem integrações, relatórios, portais, APIs, regras operacionais e possíveis informações sensíveis, não são disponibilizados publicamente:
 
+- códigos produtivos conectados a ambientes reais;
+- URLs, identificadores de relatórios ou seletores operacionais;
+- credenciais, tokens, cookies ou chaves de API;
+- dados originais, planilhas reais ou arquivos exportados em produção;
+- screenshots, logs ou diagnósticos contendo informações internas;
+- detalhes capazes de reproduzir acessos ou fluxos sensíveis.
+
+As demonstrações públicas utilizam dados fictícios, dashboards simulados, configurações genéricas e documentação voltada exclusivamente à apresentação profissional.
+
+---
+
+## Contato
+
+Tenho interesse em projetos e oportunidades relacionados a:
+
+- Python Automation;
+- RPA e Intelligent Automation;
+- Applied AI;
+- automação web e desktop;
+- integração de sistemas;
+- processamento e rastreabilidade de dados.
+
+<!--
+Quando decidir publicar seus contatos, substitua este comentário por links reais, por exemplo:
+
+<div align="center">
+
+<a href="URL_DO_LINKEDIN">LinkedIn</a>
+&nbsp; • &nbsp;
+<a href="mailto:SEU_EMAIL_PROFISSIONAL">E-mail</a>
+
+</div>
+-->
 
 ---
 
 <div align="center">
 
-### Desenvolvendo soluções para automatizar processos, integrar dados e melhorar operações.
+### Automação, IA aplicada e dados para processos mais confiáveis.
 
 <br>
 
 <img src="https://img.shields.io/badge/Python-Developer-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/RPA-Automation-6C63FF?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Data-Solutions-1F6FEB?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Applied_AI-Solutions-412991?style=for-the-badge" />
 
 <br><br>
 
