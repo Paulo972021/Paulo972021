@@ -273,14 +273,6 @@ Alguns projetos apresentados neste perfil são baseados em desafios operacionais
 
 As demonstrações públicas serão recriadas com dados fictícios e finalidade exclusivamente profissional.
 
----
-
-## Em breve
-
-- Portfólio visual completo em HTML.
-- Central demonstrativa de monitoramento de automações.
-- Cases técnicos com fluxos e interfaces anonimizadas.
-- Repositórios públicos com exemplos genéricos de código e arquitetura.
 
 ---
 
