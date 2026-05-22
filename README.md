@@ -60,12 +60,7 @@ O projeto combina automação assíncrona com Playwright, interface gráfica par
 
 > A rotina de exportação está implementada em código, mas os artefatos analisados ainda não comprovam um ciclo completo de exportação concluído com sucesso em ambiente real.
 
-<!--
-Quando publicar o repositório, substitua a linha abaixo por:
-[Ver case completo do PBI Automation Studio](https://github.com/Paulo972021/pbi-automation-studio)
--->
-
-> Repositório público demonstrativo em preparação.
+> [Ver case completo do PBI Automation Studio](https://github.com/Paulo972021/pbi-automation-studio)
 
 ---
 
@@ -89,12 +84,7 @@ A solução integra roteamento entre providers, fallback automático, desativaç
 
 > Case apresentado de forma anonimizada. Chaves de API, configurações sensíveis, integrações completas e dados originais não são publicados.
 
-<!--
-Quando publicar o repositório, substitua a linha abaixo por:
-[Ver case completo do LLM Infinity](https://github.com/Paulo972021/llm-infinity)
--->
-
-> Repositório público demonstrativo em preparação.
+> [Ver case completo do LLM Infinity](https://github.com/Paulo972021/llm-infinity)
 
 <br>
 
@@ -119,12 +109,7 @@ A solução incorpora tratamento de falhas, retentativas, execução paralela co
 
 > Case apresentado de forma anonimizada. URLs, seletores, processos, dados reais e detalhes de integração não são publicados.
 
-<!--
-Quando publicar o repositório, substitua a linha abaixo por:
-[Ver case completo do Judicial Movement Monitor](https://github.com/Paulo972021/judicial-movement-monitor)
--->
-
-> Repositório público demonstrativo em preparação.
+> [Ver case completo do Judicial Movement Monitor](https://github.com/Paulo972021/judicial-movement-monitor-I)
 
 ---
 
@@ -315,3 +300,4 @@ Quando decidir publicar seus contatos, substitua este comentário por links reai
 **Python • RPA • APIs • Automação Web • Dados • IA Aplicada**
 
 </div>
+
