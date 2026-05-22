@@ -1,4 +1,10 @@
 <div align="center">
+  <img src=".banner.png" alt="Banner Paulo Henrique Oliveira Leite" width="100%" />
+</div>
+
+<br>
+
+<div align="center">
 
 # Paulo Henrique Oliveira Leite
 
